@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 64.5%;
+    margin: 0 auto;
+    padding: 10px 0 0;
+}
+
+.gambar1{
+    width: 100%;
+}
+
+.gambar1 img{
+    display: block;
+    margin: 0 auto;
+}
+
+nav, .gambar2, , footer, content h1 {
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: #303030;
+    padding: 5px 30px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+
+.gambar2{
+    text-align: center;
+}
+
+.card {
+    float: left;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+.card h3, .card p {
+    padding: 10px;
+}
+
+.content::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card h3, .card p, footer p {
+    text-align: center;
+}
+
+footer {
+    background-color: #cbcbcb;
+    padding: 30px;
+    text-align: center;
+}
